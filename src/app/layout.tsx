@@ -11,7 +11,11 @@ export const metadata: Metadata = {
   title: 'BKAP - DIGITAL TRANSMISSION',
   description: 'Brennan K.A. Pollock - Digital transmission in progress...',
   robots: 'noindex,nofollow',
-  viewport: 'width=device-width, initial-scale=1',
+}
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
 }
 
 export default function RootLayout({

@@ -30,7 +30,7 @@ export default function GlitchText({
       if (Math.random() > 0.7) {
         const newText = text
           .split('')
-          .map((char, index) => {
+          .map((char) => {
             if (Math.random() < (intensity * 0.1)) {
               return glitchChars[Math.floor(Math.random() * glitchChars.length)]
             }
